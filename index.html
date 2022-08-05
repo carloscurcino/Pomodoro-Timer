@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b41e2a9200.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="icons8-whole-apple-16.png" type="image/x-icon">
+    <title id="titulo">Pomodoro Timer</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>Pomodoro Timer</h1>
+            <div class="painel">
+                <span id="work">Work</span>
+                <span id="break">Break</span>
+            </div>
+            <div class="timer">
+                <div class="box">
+                    <div class="time">
+                       <span id="minutes"></span>
+                       <span>:</span>
+                       <span id="seconds"></span> 
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="start" onclick="start()"><i class="fa-solid fa-play"></i></button>
+                <a id="stop" href="#" onclick="stop()"><i class="fa-solid fa-stop"></i></a>
+                <a id="reset" href="#" onclick="reset()"><i class="fa-solid fa-arrow-rotate-left"></i></a>
+            </div>
+            <div class="social">
+                <a href="https://www.instagram.com/carlos.curcino/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/carloscurcino"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/carlos-daniel-curcino-mendes-7150141b5/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>        
+    </section>
+    <section class="content">
+        <article>
+            <div id="text1">
+               <h1>O que é pomodoro?</h1>
+                <p>A técnica de pomodoro é uma forma de gerenciamento de tempo, de forma a utilizar melhor o seu tempo e se concentrar melhor no que está fazendo de forma que não se sobrecarregue mentalmente. O sistema incentiva a pessoa a focar de maneira intensa e integral em apenas uma tarefa ao longo de exatos 25 minutos. A técnica foi desenvolvida por Francesco Cirillo no final dos anos 1980. A técnica recebeu esse nome pois Francesco utilizava um cronômetro em forma de tomate, que é Pomodoro em italiano. </p> 
+            </div>
+            <div>
+                <h2>Como funciona?</h2>
+                <p>O sistema pomodoro consiste em 25 minutos de concentração em uma tarefa, seguida de 5 minutos de descanso. Os ciclos de 25 minutos são chamados de Pomodoros, e para organizar melhor a realização da sua tarefa é bom calcular quantos pomodoros serão necessários para a tarefa. Também é aconselhável que a cada 4 ciclos, fazer uma pausa mais longa de 15 a 30 minutos. Esses intervalos entres os pomodoros são fundamentais para “oxigenar o seu cérebro” e aumentar a agilidade mental. O site é tem um design minimalista totalmente voltado para a menor distração possivel, aproveite as funcionalidades e bom trabalho/estudo. 😉 </p>  
+            </div>
+            
+        </article>
+    </section>
+    <footer>
+        <p>Desenvolvido por &copy;CarlosCurcino</p>
+       
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
