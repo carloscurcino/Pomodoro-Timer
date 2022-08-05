@@ -205,7 +205,6 @@ footer{
 @media (max-width: 614px){
     .content{
         width: 615px;
-        background-color: pink;
     }
     .content #text1::after{
         width: 300px;        
