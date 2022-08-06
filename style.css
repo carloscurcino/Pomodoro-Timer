@@ -203,8 +203,14 @@ footer{
 /*RESPONSIVIDADE*/
 
 @media (max-width: 614px){
+    body{
+        width: 614px;
+    }
+    section{
+        width: 590px;
+    }
     .content{
-        width: 615px;
+        width: 606px;
     }
     .content #text1::after{
         width: 300px;        
@@ -213,7 +219,7 @@ footer{
         margin-top: 12.8rem;
     } 
     footer{
-        width: 614px;
+        width: 606px;
     }
 } 
 
@@ -221,26 +227,31 @@ footer{
     .social{
         margin-top: 17.5rem;
     } 
+    .content{
+        width: 612px;
+    }
 }
 @media (max-width: 500px){
     .social{
         margin-top: 23.4rem;
     } 
+    .content{
+        width: 500px;
+    }
 }
 @media (max-width: 450px){
     .social{
         margin-top: 30.3rem;
     } 
+    .content{
+        width: 450px;
+    }
 }
 @media (max-width: 400px){
     .container{
     width: min(42.5rem);
     margin-inline: auto;
     padding-inline: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     }
     .container h1{
         margin-bottom: 140px;
@@ -279,10 +290,16 @@ footer{
         font-size: 45px;
         background-size: 100px 100px;
     }
+    .content{
+        width: 400px;
+    }
 }
 
 @media (max-width: 337px){
     .social{
         margin-top: 12.5rem;
     } 
+    .content{
+        width: 337px;
+    }
 }
