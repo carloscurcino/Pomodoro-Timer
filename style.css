@@ -297,4 +297,7 @@ footer{
     .content{
         width: 600;
     }
+    footer{
+        width: 600px;
+    }
 }
