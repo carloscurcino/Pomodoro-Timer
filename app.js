@@ -96,11 +96,3 @@ function callNotify(title, msg, icon){
     new Notification(title, {body: msg, icon: icon});
     //new Audio(song).play()
 }
-
-// if(window.Notification&&Notification.permission!=='denied'){
-//     Notification.requestPermission(function(status){
-//         let n = new Notification('Title', {
-//             body: "Blablabla"
-//         })
-//     })
-// }

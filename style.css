@@ -301,3 +301,8 @@ footer{
         width: 600px;
     }
 }
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
