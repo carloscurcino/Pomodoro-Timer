@@ -177,7 +177,7 @@ section{
     justify-content: space-between;
     align-items: center;
 }
-.content #text1::after{
+.content .text::after{
     content: '';
     display: flex;
     width: 500px;
@@ -192,6 +192,7 @@ section{
     border-radius: 10px;
     
 } 
+
 footer{
     /* background-color: #058effd8; */
     background-color: #1f2241;
@@ -212,7 +213,7 @@ footer{
     .content{
         width: 614px;
     }
-    .content #text1::after{
+    .content .text::after{
         width: 300px;        
     } 
     .social{
