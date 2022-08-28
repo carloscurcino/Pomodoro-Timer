@@ -13,7 +13,9 @@
 
     --color-shadow: #AB433F;
 }
-
+a{
+    color: #AB433F;
+}
 body{
     height: 100%;
     /* background-color: var(--color-primary); */
